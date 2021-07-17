@@ -126,12 +126,12 @@
 
 
   var phaseJump = 0;
-  (function wheee () {
+  (function colorChange() {
     for (var i = 0; i < 360; i++) {
       document.getElementsByTagName("body")[0].style.background = 'hsl(' + (phaseJump) + ', 70%, 85%)';
     }
     phaseJump++;
-    requestAnimationFrame(wheee);
+    requestAnimationFrame(colorChange);
   })();
 
 
