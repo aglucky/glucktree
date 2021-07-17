@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 14.6//EN
+N:Gluck;Adam;;;
+FN:Adam Gluck
+EMAIL;type=INTERNET;type=HOME;type=pref:adam.gluck10@gmail.com
+TEL;type=IPHONE;type=CELL;type=VOICE;type=pref:(614) 230-1080
+BDAY;X-APPLE-OMIT-YEAR=1604:1604-07-11
+END:VCARD

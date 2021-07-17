@@ -5,7 +5,7 @@
   <!-- Page Information
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>GluckHub</title>
+  <title>LittleLink</title>
   <meta name="description" content="Find us online!">
   <meta name="author" content="Adam Gluck">
 
@@ -53,7 +53,7 @@
         -->
 
         <!-- Your Image Here -->
-        <img src="images/Adam-200 x 200.jpg" alt="Profile Pic">
+        <img src="images/Adam-300 x 300.jpg" srcset="images/avatar@2x.png 2x" alt="Profile Pic" style="border-radius:12px">
 
         <!-- Your Name -->
         <h1>Adam Gluck</h1>
@@ -107,18 +107,35 @@
           <br> 
         
           <!-- Venmo -->
-        <a class="button button-snapchat" href="https://www.snapchat.com/add/adam5275" target="_blank" rel="noopener"><img class="icon" src="icons/venmo_logo.svg" alt="Venmo Logo">Venmo</a>
+        <a class="button button-venmo" href="https://venmo.com/code?user_id=2972937917300736669&created=1626383332.4790602&printed=1" target="_blank" rel="noopener"><img class="icon" src="icons/sasa.svg" alt="Venmo Logo">Venmo</a>
         <br>    
           
 
         <!-- Email -->
-        <a class="button button-default" href="mailto:adam.gluck10@gmail.com" target="_blank" rel="noopener"><img class="icon" src="icons/email.svg" alt="Email Icon">adam.gluck10@gmail.com</a>
+        <a class="button button-email" href="mailto:adam.gluck10@gmail.com" target="_blank" rel="noopener"><img class="icon" src="icons/email.svg" alt="Email Icon">Email</a>
           <br>
+
+<!-- Contact -->
+        <a class="button button-contact" href="electronic_business_card.vcf" target="_blank" rel="noopener"><img class="icon" src="icons/contact_icon.svg" alt="Contact Icon">Contact (VCF)</a>
           
       </div>
     </div>
   </div>
+<script>
 
+
+
+  var phaseJump = 0;
+  (function colorChange() {
+    for (var i = 0; i < 360; i++) {
+      document.getElementsByTagName("body")[0].style.background = 'hsl(' + (phaseJump) + ', 70%, 85%)';
+    }
+    phaseJump++;
+    requestAnimationFrame(colorChange);
+  })();
+
+
+</script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

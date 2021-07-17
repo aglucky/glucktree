@@ -83,12 +83,28 @@ button:hover,
 .button.button-default:focus {
   filter: brightness(90%) }
 
+/* Contact */
+.button.button-contact {
+color: #FFFFFF;
+background-color: #50C878 }
+.button.button-contact:hover,
+.button.button-contact:focus {
+  filter: brightness(90%) }
+
 /* Discord */
 .button.button-discord {
   color: #FFFFFF;
-  background-color: #5865F2 }
+  background-color: #3BE214 }
 .button.button-discord:hover,
 .button.button-discord:focus {
+  filter: brightness(90%) }
+
+/* Email */
+.button.button-email {
+  color: #FFFFFF;
+  background-color: #F88379 }
+.button.button-email:hover,
+.button.button-email:focus {
   filter: brightness(90%) }
 
 /* Facebook */
@@ -268,6 +284,14 @@ button:hover,
   background-color: #1DA1F2 }
 .button.button-twitter:hover,
 .button.button-twitter:focus {
+  filter: brightness(90%) }
+
+/* Venmo */
+.button.button-venmo {
+  color: #FFFFFF;
+  background-color: #3d95ce }
+.button.button-venmo:hover,
+.button.button-venmo:focus {
   filter: brightness(90%) }
 
 /* Vimeo */
