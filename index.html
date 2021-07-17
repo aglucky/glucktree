@@ -38,7 +38,7 @@
 
        
  
-        <img src="images/Adam-300 x 300.jpg" srcset="images/avatar@2x.png 2x" alt="Profile Pic" style="border-radius:12px">
+        <img src="images/Adam-300 x 300.jpg" alt="Profile Pic" style="border-radius:12px">
 
        
         <h1>Adam Gluck</h1>
@@ -116,7 +116,7 @@ END:VCARD`);
   var phaseJump = 0;
   (function colorChange() {
     for (var i = 0; i < 360; i++) {
-      document.getElementsByTagName("body")[0].style.background = 'hsl(' + (phaseJump) + ', 5%, 30%)';
+      document.getElementsByTagName("body")[0].style.background = 'hsl(' + (phaseJump) + ', 20%, 45%)';
     }
     phaseJump++;
     requestAnimationFrame(colorChange);
